@@ -1,0 +1,82 @@
+.innovation-section {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    margin:  50px;
+    background-color: #f9f9f9;
+    width: 1340;
+    height: 505px;
+}
+    .content {
+        margin-top: 450px;
+        // margin-left: 50px;
+        // margin-right: 150px;
+        padding-bottom: 0px;
+      
+      h1 {
+        font-size: 26px;
+        font-weight: bold;
+        // margin-bottom: 1rem;
+        color: #0d213a;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-right: 150px;
+
+      }
+  
+      .request-demo {
+        display: flex;
+        align-items: center;
+  
+        input {
+          flex: 1;
+          margin-bottom: 450px;
+          margin-right: 150px;
+
+
+          padding-left:  15px;
+          font-size: 1rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-right: 0.5rem;
+          height: 66px;
+          width: 480px;
+        }
+  
+        button {
+            margin-bottom: 450px;
+            margin-right: 150px;
+
+          padding: 0.5rem 1rem;
+          font-size: 1rem;
+          color: #fff;
+          background-color: #002244; // Navy blue color
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          height: 66px;
+          width: 142px;
+  
+          &:hover {
+            background-color: #004488; // Lighter navy blue on hover
+          }
+        }
+      }
+    }
+  
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+  
+      img {
+        width: 665;
+        // height: 506px;
+        border-radius: 10px;
+      }
+    }
+  
+  
