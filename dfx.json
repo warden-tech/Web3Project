@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "WardenProject_backend": {
+      "main": "src/WardenProject_backend/main.mo",
+      "type": "motoko"
+    },
+    "WardenProject_frontend": {
+      "dependencies": [
+        "WardenProject_backend"
+      ],
+      "source": [
+        "src/WardenProject_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "WardenProject_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
