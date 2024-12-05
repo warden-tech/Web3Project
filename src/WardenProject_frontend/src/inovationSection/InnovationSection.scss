@@ -1,17 +1,15 @@
 .innovation-section {
     display: flex;
     align-items: center;
-    // justify-content: space-between;
+    justify-content: space-between;
     margin:  50px;
     background-color: #f9f9f9;
-    width: 1040;
-    height: 505px;
+    margin-top: 100px;
+    
 }
     .content {
-        margin-top: 450px;
-        // margin-left: 50px;
-        // margin-right: 150px;
-        padding-bottom: 0px;
+      width: 100vh;
+      height: 506px;
       
       h1 {
         font-size: 26px;
@@ -51,7 +49,7 @@
             margin-right: 150px;
 
           padding: 0.5rem 1rem;
-          font-size: 1rem;
+          font-size: 16px;
           color: #fff;
           background-color: #002244; // Navy blue color
           border: none;
@@ -71,12 +69,18 @@
       flex: 1;
       display: flex;
       justify-content: center;
+      margin-top:  -150px;
+
   
       img {
-        width: 565;
-        // height: 306px;
+        width: 545;
+        height: 400px;
         border-radius: 10px;
+        margin-right: 10px;
       }
     }
   
   
+
+
+
