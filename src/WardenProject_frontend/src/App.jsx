@@ -6,7 +6,9 @@ import ElixirSection from "./ElixirSection/ElixirSection";
 import Faq from "./Faq/Faq"
 import TutorialCards from "./Tutorial/TutorialCards";
 import BlogPosts from "./BlogPost/BlogPosts";
-
+import CaseStudy from "./CaseStudy/CaseStudy";
+import ContactSection from "./ContactSection/ContactSection";
+import NewsletterForm from "./NewsletterForm/NewsletterForm";
 
 function App() {
  
@@ -20,6 +22,9 @@ function App() {
     <Faq/>
     <TutorialCards/>
     <BlogPosts/>
+    <CaseStudy/>
+    <ContactSection/>
+    <NewsletterForm/>
 
    </div>
   );

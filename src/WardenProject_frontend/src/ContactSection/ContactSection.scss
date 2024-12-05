@@ -1,0 +1,52 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+  
+    .contact-content {
+      max-width: 50%;
+      margin: 30px;
+  
+      .contact2 {
+        font-size: 24px;
+        color: #002855;
+        margin-bottom: 1rem;
+      }
+  
+      .contactP {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #4a4a4a;
+        margin-bottom: 1.5rem;
+      }
+  
+      .contact-button {
+        background-color: #002855;
+        color: #ffffff;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        width: 164px;
+        height: 66px;
+
+  
+        &:hover {
+          background-color: #004080;
+        }
+      }
+    }
+  
+    .contact-image {
+      img {
+        width: 500px;
+        height: 457px;
+      }
+    }
+  }
+  
