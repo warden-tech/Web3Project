@@ -1,0 +1,87 @@
+
+
+
+.tutorial-cards {
+    background-color: #0b172b; // Dark blue background
+    color: #ffffff; // White text
+    text-align: center;
+    padding: 2rem;
+    height: 702px;
+    width: 1341px;
+
+    .tutorial-card-sub{
+      height: 542px;
+      width: 100%;
+    }
+  
+    .section-title {
+      font-size: 16px;
+      margin-bottom: 0.5rem;
+      color: #ff6600;
+    }
+  
+    .section-subtitle {
+      font-size: 24px;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+  
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      background-color: #16243d; // Slightly lighter blue for cards
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 377px;
+      height: 420px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      text-align: left;
+  
+      .icon {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+      
+     
+  
+      .card-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        margin-top: 40px;
+      }
+  
+      .card-description {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+      }
+  
+      .learn-more-btn {
+        background-color: #ffffff; // White button
+        color: #16243d; // Text matches card background
+        border: none;
+        border-radius: 4px;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: bold;
+        position: absolute;
+        top: 2819px;
+        width: 124px;
+        height: 66px;;
+  
+        &:hover {
+          background-color: #d4d4d4; // Slight hover effect
+        }
+      }
+    }
+  }
+  
